@@ -1,0 +1,244 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="part.css">
+<link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="stylesheet" type="text/css" href="top_cat.css">
+
+<style>
+table
+{
+ height: 700px;
+}
+input
+{
+ width: 100%;
+ height: 35px;
+ border: 2px solid green;
+}
+text area
+{
+ width: 100%;
+ height: 90px;
+ border: 2px solid green;
+ font-size: 20px;
+}
+select{
+ width: 100%
+ height: 35px;
+ border: 2px solid green;
+ font-size: 20px;
+}
+input[type=button]:hover
+{
+ background-color: black;
+ color: White;
+}
+
+</style>
+</head>
+<body>
+
+<div id= "menu">
+<ul>
+    <li><a href="food order.html">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Menu</a>
+        <ul>
+            <li><a href="noodles.html">Noodles</a>
+            <li><a href="#">parotta</a>
+            <li><a href="choclates.html">Choclates</a>
+            <li><a href="#">Pani Puri</a>
+            <li><a href="biriyani.html">Biriyani</a>
+            <li><a href="#">Rice</a>
+            <li><a href="juices.html">Juices</a>
+        </ul>
+    </li>
+    <li><a href="#"><a href="order.html">Order</a></li>
+    <li><a href="contact page.html">Contact</a></li>
+</ul>
+</div>
+
+<br><br>
+<br><br><br>
+<h1 align="center">ENTER ORDER DETAILS</h1>
+<br><br>
+<div>
+<form action="connect.php" method="Post">
+<center>
+     <table border="0" width="60%">
+          <tr>
+             <td>NAME</td>
+             <td><input type="text" placeholder="Enter Name" name="name"></td>
+             </tr>
+             <td>REGISTER NUMBER (user name)</td>
+             <td><input type="text" name="registernumber"></td>
+             </tr>
+             
+             <td>Department</td>
+             <td>
+             <select>
+             <option value="CSE">CSE</option>
+             <option value="EEE">EEE</option>
+             <option value="IT">IT</option>
+             <option value="ECE">ECE</option>
+             <option value="MECH">MECH</option>
+             </select>
+             </td>
+             </tr>
+             <td>YEAR</td>
+             <td>
+             <select>
+             <option value="I">I</option>
+             <option value="II">II</option>
+             <option value="III">III</option>
+             <option value="IV">IV</option>
+             
+             </select>
+             </td>
+             </tr>
+             <td>EMAIL ID</td>
+             <td><input type="text" placeholder="Enter Email" name="emailid"></td>
+             </tr>
+             <td>MOBILE NO</td>
+             <td><input type="text" name="phonenumber"></td>
+             </tr>
+             <td>ITEM</td>
+             <td><input type="text" name="item"></td>
+             </tr>
+         
+             
+             <td>ITEM TYPE</td>
+             <td>
+                <select>
+                       <option>VEG</option>
+                       <option>NON VEG</option>
+                   
+               </select>
+            </td>
+             
+             
+             </tr>
+             <td>QUANTITY</td>
+             <td>
+                <select>
+                       <option>1</option>
+                       <option>2</option>
+                       <option>3</option>
+                       <option>4</option>
+                       <option>5</option>
+                       <option>6</option>
+                       <option>7</option>
+                       <option>8</option>
+                       <option>9</option>
+               </select>
+           </td>
+           </tr>
+           <td></td>
+           <td><input type="button" value="Submit"></td>
+           </tr>
+     </table>
+</center>
+</form>
+</div>
+<br>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<td><input type="button" value="Submit"></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="signin.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form method="post" action="connectt.php">
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Sign In</h2>
+      <label>
+        <span>Email Address</span>
+        <input type="email" name="email">
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" name="password">
+      </label>
+      <a href="food order.html"><button class="submit" type="button">Sign In</a></button>
+      <p class="forgot-pass">Forgot Password ?</p>
+
+      
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New here?</h2>
+          <p>Sign up and discover great amount of new opportunities!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>One of us?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Sign Up</h2>
+        <label>
+          <span>Name</span>
+          <input type="text">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password">
+        </label>
+        <label>
+          <span>Confirm Password</span>
+          <input type="password">
+        </label>
+        <a href="food order.html"><button type="button" class="submit">Sign Up Now</a></button>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
