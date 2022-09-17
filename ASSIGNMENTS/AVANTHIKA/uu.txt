@@ -1,0 +1,29 @@
+11111) HUB
+
+A network hub is a node that broadcasts data to every computer or Ethernet-based device connected to it. A hub is less sophisticated than a switch, 
+the latter of which can isolate data transmissions to specific devices. 
+Network hubs are best suited for small, simple local area network (LAN) environments.
+
+
+What is switch in computer network and types?
+
+Switches are networking devices operating at layer 2 or a data link layer of the OSI model. 
+They connect devices in a network and use packet switching to send, receive or forward data packets or data frames over the network.
+ A switch has many ports, to which computers are plugged in
+
+ROUTER
+
+A router is a device that connects two or more packet-switched networks or subnetworks. 
+It serves two primary functions: managing traffic between these networks by forwarding data packets to their intended IP addresses, 
+and allowing multiple devices to use the same Internet connection.
+
+MICROPROCESSOR
+
+A microprocessor is a computer processor where the data processing logic and control is included on a single integrated circuit,
+ or a small number of integrated circuits. 
+The microprocessor contains the arithmetic, logic, and control circuitry required to perform the functions of a computer's central processing unit.
+
+7. What is transistor?
+Ans: In electronics, a transistor is a semiconductor device commonly used to amplify or switch electronic signals.
+ The transistor is the fundamental building block of computers, and all other modern electronic devices.
+ Some transistors are packaged individually but most are found in integrated circuits
